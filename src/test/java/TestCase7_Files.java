@@ -7,8 +7,8 @@ import project.pages.MainPage;
 import project.pages.MenuPage;
 
 public class TestCase7_Files extends BaseTest{
-    private static final String PATH_TO_DOWNLOADS = "C:\\Users\\anato\\Downloads";
-    private static final String PATH_TO_FILE = "C:\\Users\\anato\\Downloads\\sampleFile.jpeg";
+    private static final String PATH_TO_DOWNLOADS = "C:\\Users\\*****\\Downloads";
+    private static final String PATH_TO_FILE = "C:\\Users\\*****\\Downloads\\sampleFile.jpeg";
     private static final String NAME_OF_FILE = "sampleFile.jpeg";
     @Test
     public void files() throws Exception {
